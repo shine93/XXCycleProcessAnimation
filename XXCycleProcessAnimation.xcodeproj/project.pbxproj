@@ -15,6 +15,8 @@
 		7781868021086D89008A1270 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7781867F21086D89008A1270 /* main.m */; };
 		7781868A21086D89008A1270 /* XXCycleProcessAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7781868921086D89008A1270 /* XXCycleProcessAnimationTests.m */; };
 		7781869521086D89008A1270 /* XXCycleProcessAnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7781869421086D89008A1270 /* XXCycleProcessAnimationUITests.m */; };
+		778186A321086DF5008A1270 /* arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 778186A221086DF5008A1270 /* arrow.png */; };
+		778186A521087046008A1270 /* XXCycleProcessAnimation.gif in Resources */ = {isa = PBXBuildFile; fileRef = 778186A421087046008A1270 /* XXCycleProcessAnimation.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		7781869021086D89008A1270 /* XXCycleProcessAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XXCycleProcessAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7781869421086D89008A1270 /* XXCycleProcessAnimationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XXCycleProcessAnimationUITests.m; sourceTree = "<group>"; };
 		7781869621086D89008A1270 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		778186A221086DF5008A1270 /* arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow.png; sourceTree = "<group>"; };
+		778186A421087046008A1270 /* XXCycleProcessAnimation.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = XXCycleProcessAnimation.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,8 @@
 		7781866F21086D80008A1270 /* XXCycleProcessAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				778186A421087046008A1270 /* XXCycleProcessAnimation.gif */,
+				778186A221086DF5008A1270 /* arrow.png */,
 				7781867021086D80008A1270 /* AppDelegate.h */,
 				7781867121086D80008A1270 /* AppDelegate.m */,
 				7781867321086D80008A1270 /* ViewController.h */,
@@ -238,6 +244,8 @@
 				7781867D21086D89008A1270 /* LaunchScreen.storyboard in Resources */,
 				7781867A21086D89008A1270 /* Assets.xcassets in Resources */,
 				7781867821086D80008A1270 /* Main.storyboard in Resources */,
+				778186A521087046008A1270 /* XXCycleProcessAnimation.gif in Resources */,
+				778186A321086DF5008A1270 /* arrow.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,7 +442,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MHDH5B76KE;
 				INFOPLIST_FILE = XXCycleProcessAnimation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -450,7 +460,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MHDH5B76KE;
 				INFOPLIST_FILE = XXCycleProcessAnimation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
